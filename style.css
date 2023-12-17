@@ -1,0 +1,77 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(#054A91, #F17300);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px;
+    padding:0px;
+    min-height: 100vh;
+    gap: 16px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+.dim-text {
+    font-size: 32px;
+}
+
+.dimensions-input-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+input {
+    height: 25px;
+    width: 100px;
+}
+
+#create-btn {
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    background: #81A4CD;
+    border-radius: 8px;
+    height: 50px;
+    width: 200px;
+}
+
+#etch-container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 5px solid black;
+    height: 1000px;
+    width: 1000px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.divRow {
+    display: flex;
+    flex:1;
+    height: auto;
+    width: auto;
+}
+
+div.square {
+    flex: 1;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+.footer {
+    font-size: large;
+    padding: 16px;
+}
+
